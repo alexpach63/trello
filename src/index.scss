@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,700&display=swap&subset=cyrillic,cyrillic-ext,latin-ext');
+
+:root {
+    --defaultFontSize: 13px;
+    --defaultPaddingHorizontal: 12px;
+    --defaultPaddingVertical: 12px;
+    // ..etc
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Montserrat;
+}
+
+input, textarea {
+    display: block;
+    font-family: Montserrat;
+    font-size: 13px;
+    line-height: 19px;
+    padding: 8px var(--defaultPaddingHorizontal);
+    background: #fff;
+    box-shadow: 0px 1px 4px rgba(9, 45, 66, 0.25);
+    border-radius: 3px;
+    outline: none;
+    border: none;
+    margin-bottom: 8px;
+}
+
+textarea {
+    resize: none;
+}
+
+h2 {
+    font-weight: bold;
+    font-size: 13px;
+    line-height: 19px;
+    margin: 0 0 12px;
+}
+
+.sortable-fallback {
+    transform: rotate(4deg);
+    opacity: 1 !important;
+}

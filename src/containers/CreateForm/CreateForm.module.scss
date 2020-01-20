@@ -1,0 +1,17 @@
+.Input {
+    width: 100%;
+    resize: none;
+    padding: 8px var(--defaultPaddingHorizontal);
+    &--headingStyle {
+        font-weight: bold;
+    }
+}
+
+.CreateForm {
+    overflow: hidden;
+    &__actions {
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 12px;
+    }
+}

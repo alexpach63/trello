@@ -1,0 +1,39 @@
+.Button {
+    display: flex;
+    align-items: center;
+    color: #6B808C;
+    background: none;
+    border: none;
+    outline: none;
+    font-size: var(--defaultFontSize);
+    line-height: 19px;
+    cursor: pointer;
+    border-radius: 3px;
+    padding: 5px 8px;
+    &:hover, &:focus {
+        background: #ced3d8;
+    }
+
+    &--size--big {
+        padding: var(--defaultPaddingVertical) var(--defaultPaddingHorizontal);
+    }
+    &--cover {
+        width: 100%;
+    }
+
+    &__icon {
+        margin-right: 8px;
+    }
+
+    &--lvl--success {
+        background: #39C071;
+        color: #fff;
+        &:hover {
+            background: #39C071;
+        }
+    }
+
+    img {
+        margin-right: 8px;
+    }
+}
