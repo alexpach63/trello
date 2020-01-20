@@ -1,6 +1,6 @@
 {
   "name": "trello",
-  "homepage": "http://alexpach63.github.io/trello",
+  "homepage": "http://alexpach63.github.io/trello/build",
   "version": "1.0.0",
   "main": "index.js",
   "license": "MIT",
@@ -143,3 +143,5 @@
     "gh-pages": "^2.2.0"
   }
 }
+
+
