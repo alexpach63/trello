@@ -1,10 +1,10 @@
 # Trello.mini
 
-###About
+### About
 
 This is limited analogue of Trello. You can try create carts, columns and moving there. Also u can navigation and edit with keybord
 
-####Get started | [Demo](https://alexpach63.github.io/trello/build/index.html)
+#### Get started | [Demo](https://alexpach63.github.io/trello/build/index.html)
 
 ```sh
 $ git clone git@github.com:alexpach63/trello.git
